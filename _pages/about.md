@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an Ph.D. student in computer science at [Harvard University](https://www.harvard.edu/), advised by [Hanspeter Pfister](https://en.wikipedia.org/wiki/Hanspeter_Pfister).
+I am a Ph.D. student in computer science at [Harvard University](https://www.harvard.edu/), advised by [Hanspeter Pfister](https://en.wikipedia.org/wiki/Hanspeter_Pfister).
 I am deeply interested in data visualization, biomedical imaging, and computer vision. I create novel interactive technologies that allow scientists to study domain specific problems visually.
 My latest research focuses on applications of data visualization in neuroscience and climate sciences.
 
