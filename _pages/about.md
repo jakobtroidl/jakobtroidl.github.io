@@ -17,9 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in computer science at [Harvard University](https://www.harvard.edu/), advised by [Hanspeter Pfister](https://en.wikipedia.org/wiki/Hanspeter_Pfister).
+I am a Ph.D. student in computer science at **[Harvard University](https://www.harvard.edu/)**, advised by **[Hanspeter Pfister](https://en.wikipedia.org/wiki/Hanspeter_Pfister)**.
 I am deeply interested in data visualization, biomedical imaging, and computer vision. I create novel interactive technologies that allow scientists to study domain specific problems visually.
-My latest research focuses on applications of data visualization in neuroscience and climate sciences.
+My latest research focuses on applications of **data visualization in neuroscience** and climate sciences.
 
 
 I hold an M.Sc. in visual computing from [TU Wien](https://www.tuwien.at/en/) and a B.Sc. in medical informatics from the same university. During my studies, I had some fantastic opportunities to conduct research abroad. For my master thesis research, I visited the [Visual Computing Group](https://vcg.seas.harvard.edu/) at Harvard University. I also interned at Markus Hadwiger’s [High-Performance Visualization Group](http://vccvisualization.org/) at [KAUST](https://www.kaust.edu.sa/en) and [Brainlab](https://www.brainlab.com/), Munich.
