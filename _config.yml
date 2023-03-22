@@ -154,7 +154,7 @@ github: [metadata]
 scholar:
 
   last_name: Troidl
-  first_name: [Jakob, J.]
+  first_name: [Jakob, J., J.*, Jakob*]
 
   style: apa
   locale: en
