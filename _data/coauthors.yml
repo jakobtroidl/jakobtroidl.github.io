@@ -1,18 +1,15 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Beyer":
+  - firstname: ["Johanna", "J", "J."]
+    url: https://johanna-b.github.io/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Pfister":
+  - firstname: ["Hanspeter", "H.", "H"]
+    url: https://en.wikipedia.org/wiki/Hanspeter_Pfister
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Lichtman":
+  - firstname: ["Jeff", "J.W., JW"]
+    url: https://en.wikipedia.org/wiki/Jeff_W._Lichtman
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Warchol":
+  - firstname: ["Simon", "S.", "S"]
+    url: https://simonwarchol.com/
