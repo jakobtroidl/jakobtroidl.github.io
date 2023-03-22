@@ -6,6 +6,10 @@ description: Here is a list of courses I am TFing/TF'ed.
 nav: true
 ---
 
+#### [CS171 - Visualization](https://www.cs171.org/2022/)
+Fall '22. Harvard University \
+Instructor: Prof. Hanspeter Pfister
+
 #### [Selected Chapters from Medical Visualization](https://www.cg.tuwien.ac.at/courses/MedVis/VU/2020W)
 Fall '20. TU Wien \
 Instructor: Prof. M. Eduard Gröller
