@@ -2,7 +2,15 @@ barrio:
   img: teasers/barrio-teaser.jpeg
 
 lioness:
-  img: teasers/lioness.jpeg
+  img: teasers/lioness.png
 
 vimo:
   img: teasers/vimo-teaser-02.png
+
+connectomics_star:
+  img: teasers/connectomics_star.png
+
+killing_surfaces:
+  img: teasers/killingsurfaces.jpeg
+
+
