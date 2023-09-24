@@ -10,7 +10,7 @@ profile:
   address: >
     <p>SEC 2.421</p>
     <p>150 Western Ave</p>
-    <p>Allston, MA 02134</p>
+    <p>Boston, MA 02134</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
