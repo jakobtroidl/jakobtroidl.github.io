@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a Ph.D. student in computer science at **[Harvard University](https://www.harvard.edu/)**, advised by **[Hanspeter Pfister](https://en.wikipedia.org/wiki/Hanspeter_Pfister)**.
-I am deeply interested in **data visualization** and **computational neuroscience**, particularly **connectomics**. My research focuses on building scalable visual analysis tools and machine-learning algorithms to analyze the hidden architecture of the brain.
+I am deeply interested in **data visualization**, **computational neuroscience**, and **neural rendering**, especially with applications in **connectomics**. In particular, my research focuses on building scalable visual analysis tools and machine-learning algorithms to analyze the hidden architecture of the brain.
 
-I hold an M.Sc. in visual computing from [TU Wien](https://www.tuwien.at/en/) and a B.Sc. (with Honors) in medical informatics from the same university.
-I was born and raised in the beautiful town [Regensburg](https://en.wikipedia.org/wiki/Regensburg) in Germany - feel free to reach out in English or German.
+I hold an M.Sc. in visual computing from **[TU Wien](https://www.tuwien.at/en/)** and a B.Sc. (with Honors) in medical informatics from the same university.
+I was born and raised in the beautiful town **[Regensburg](https://en.wikipedia.org/wiki/Regensburg)** in Germany - feel free to reach out in English or German.
