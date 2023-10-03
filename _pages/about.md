@@ -6,7 +6,7 @@ description: Harvard University | Computer Science | Data Visualization
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile-picture.png
   address: >
     <p>SEC 2.421</p>
     <p>150 Western Ave</p>
