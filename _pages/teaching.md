@@ -4,6 +4,7 @@ permalink: /teaching/
 title: teaching
 description: Here is a list of courses I am TFing/TF'ed.
 nav: true
+nav_order: 6
 ---
 
 #### [CS171 - Visualization](https://www.cs171.org/2022/)
