@@ -12,8 +12,10 @@ pagination:
   sort_field: date
   sort_reverse: true
   trail:
+
     before: 1 # The number of links before the current page
     after: 3 # The number of links after the current page
+
 ---
 
 <div class="post">
@@ -24,14 +26,17 @@ pagination:
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
   <div class="header-bar">
+
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
+
   </div>
   {% endif %}
 
 {% if site.display_tags or site.display_categories %}
 
   <div class="tag-category-list">
+
     <ul class="p-0 m-0">
       {% for tag in site.display_tags %}
         <li>
@@ -53,6 +58,7 @@ pagination:
         {% endunless %}
       {% endfor %}
     </ul>
+
   </div>
   {% endif %}
 
@@ -125,8 +131,11 @@ pagination:
 {% if post.thumbnail %}
 
 <div class="row">
+
           <div class="col-sm-9">
+
 {% endif %}
+
         <h3>
         {% if post.redirect == blank %}
           <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -173,10 +182,13 @@ pagination:
 </div>
 
   <div class="col-sm-3">
+
     <img class="card-img" src="{{post.thumbnail | relative_url}}" style="object-fit: cover; height: 90%" alt="image">
+
   </div>
 </div>
 {% endif %}
+
     </li>
 
     {% endfor %}
