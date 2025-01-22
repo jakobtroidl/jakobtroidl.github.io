@@ -6,4 +6,4 @@ related_posts: true
 
 ---
 
-New paper! [Vimo](https://vcg.seas.harvard.edu/publications/vimo) got accepted to IEEE VIS 23 in Australia 🇦🇺. See you soon, Melbourne!
+📝 New paper! [Vimo](https://vcg.seas.harvard.edu/publications/vimo) got accepted to IEEE VIS 23 in Australia 🇦🇺.
