@@ -171,7 +171,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-# news_limit: 3
+news_limit: 3
 
 announcements:
   enabled: true
@@ -181,7 +181,7 @@ announcements:
 latest_posts:
   enabled: true
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 5 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
