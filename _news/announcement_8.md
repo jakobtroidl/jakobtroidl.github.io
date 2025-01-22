@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2023-10-06 07:59:00-0400
+date: 2024-05-15 07:59:00-0400
 inline: true
 related_posts: true
 
 ---
 
-:mega: I am actively **seeking PhD research internship positions for the summer of 2024**. I am interested in working on **data visualization** for biomedical applications, **inverse graphics/neural fields**, and **computational neuroscience**.
+🧠 I started as a visiting researcher in the [Turaga lab](https://www.janelia.org/lab/turaga-lab) at [HHMI Janelia](https://www.janelia.org/).
