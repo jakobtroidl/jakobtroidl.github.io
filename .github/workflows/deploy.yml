@@ -79,6 +79,12 @@ jobs:
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build --lsi
+      - name: Install and Build imagekick 🔧
+        run: |
+          sudo apt-get update && sudo apt-get install -y imagemagick
+          pip3 install --upgrade nbconvert
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
