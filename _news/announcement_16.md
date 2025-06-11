@@ -6,4 +6,4 @@ related_posts: true
 
 ---
 
-📢 I am graduating in the fall and am **looking for academic and industry research positions** at the intersection of computer science and biology. If you think I would be a good fit for your team, please [reach out](mailto:jtroidl@g.harvard.edu)!
+📢 I am graduating in the fall and am **looking for academic and industry research positions**. If you think I would be a good fit, please [reach out](mailto:jtroidl@g.harvard.edu)!
