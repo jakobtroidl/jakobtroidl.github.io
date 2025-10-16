@@ -8,7 +8,7 @@ nav_order: 6
 ---
 
 #### [CS171 - Visualization](https://www.cs171.org/2022/)
-Fall '22, '23. Harvard University \
+Fall '22, '23, '24. Harvard University \
 Instructor: Prof. Hanspeter Pfister
 
 #### [Selected Chapters from Medical Visualization](https://www.cg.tuwien.ac.at/courses/MedVis/VU/2020W)
