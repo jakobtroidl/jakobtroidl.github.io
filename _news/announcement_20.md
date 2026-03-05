@@ -6,4 +6,4 @@ related_posts: true
 
 ---
 
-📖 My PhD thesis **Scaling Computational Connectomics** is now available [online](https://www.proquest.com/docview/3308460052).  
+📖 My PhD thesis [**Scaling Computational Connectomics**](https://www.proquest.com/docview/3308460052) is now available online.  
