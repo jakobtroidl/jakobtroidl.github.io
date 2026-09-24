@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New position. I will join the [Visual Computing Group](https://vcg.seas.harvard.edu/) at [Harvard University](https://www.seas.harvard.edu/) in the fall of 2021 to pursue a Ph.D. in computer science. :tada:
+🎉 Joining the [Visual Computing Group](https://vcg.seas.harvard.edu/) at [Harvard](https://www.seas.harvard.edu/) this fall for my Ph.D.

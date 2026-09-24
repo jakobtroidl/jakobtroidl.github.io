@@ -6,4 +6,4 @@ related_posts: true
 
 ---
 
-💬 I'll attend the [AI and Biology](https://www.embl.org/about/info/course-and-conference-office/events/ees26-02/) conference at EMBL and the [Synapses at Scale](https://alleninstitute.github.io/connectomics_at_cosyne/workshop.html) workshop at [COSYNE](https://www.cosyne.org/).  
+💬 Attending [AI and Biology](https://www.embl.org/about/info/course-and-conference-office/events/ees26-02/) at EMBL and the [Synapses at Scale](https://alleninstitute.github.io/connectomics_at_cosyne/workshop.html) workshop at [COSYNE](https://www.cosyne.org/).

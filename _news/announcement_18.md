@@ -6,4 +6,4 @@ related_posts: true
 
 ---
 
-🎓 I defended my PhD. Here's the [recording](https://youtu.be/bv8vU0io6rI).  
+🎓 Defended my PhD ([recording](https://youtu.be/bv8vU0io6rI)).

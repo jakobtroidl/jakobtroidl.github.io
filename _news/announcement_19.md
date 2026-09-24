@@ -6,4 +6,4 @@ related_posts: true
 
 ---
 
-📢 I started as an AI Scientist at [HHMI's Janelia Research Campus](https://ai.hhmi.org/).  
+📢 Started as an AI Scientist at [HHMI Janelia](https://ai.hhmi.org/).

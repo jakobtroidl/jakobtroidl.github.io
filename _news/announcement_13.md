@@ -6,4 +6,4 @@ related_posts: true
 
 ---
 
-💬 I will join [E11.bio](https://e11.bio/news/roadmap) this summer as a ML fellow to work on automated connectome proofreading.
+🔬 Joining [E11.bio](https://e11.bio/news/roadmap) this summer as an ML Fellow on automated connectome proofreading.

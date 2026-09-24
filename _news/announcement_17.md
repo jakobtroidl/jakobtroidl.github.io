@@ -6,4 +6,4 @@ related_posts: true
 
 ---
 
-📢 Three papers accepted to [IEEE VIS 2025](https://ieeevis.org/) and one paper accepted to [MICCAI EMA](https://sites.google.com/view/ema4miccai2025)!
+📢 Three papers accepted to [IEEE VIS 2025](https://ieeevis.org/) and one to [MICCAI EMA](https://sites.google.com/view/ema4miccai2025)!

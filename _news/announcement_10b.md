@@ -6,4 +6,4 @@ related_posts: true
 
 ---
 
-💬 I presented at the IEEE VIS Doctoral Colloquium in Florida (remote).
+💬 Presented at the IEEE VIS Doctoral Colloquium (remote).

@@ -2,6 +2,18 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+// Font: Inter everywhere (MDB's CDN stylesheet otherwise sets Roboto on body)
+body,
+button,
+input,
+select,
+textarea,
+.btn,
+.tooltip,
+.popover {
+  font-family: $font-family-base;
+}
+
 // Typography
 
 p,
@@ -660,6 +672,16 @@ footer.sticky-bottom {
   margin-bottom: 0;
 }
 
+// dates in the same weight as body text (<th> is bold by default)
+.news th {
+  font-weight: inherit;
+}
+
+// bold links, matching the bio
+.news td a {
+  font-weight: 500; // same weight the bio links render at
+}
+
 .news-more {
   height: 0;
   overflow: hidden;
@@ -752,6 +774,13 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: -2rem;
     text-align: right;
+  }
+
+  // keep the first entry of each year clear of the overlapping year label
+  h2.bibliography + ol.bibliography > li:first-child .row > [class*="col-sm-"]:last-child {
+    @media (min-width: 576px) {
+      padding-right: 5.5rem;
+    }
   }
 
   ol.bibliography {

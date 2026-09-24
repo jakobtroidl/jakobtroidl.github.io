@@ -32,8 +32,14 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+$accent-color:        #2C3E57; // signature accent, ink navy (10.9:1 on white)
+$accent-color-hover:  #4A6A94; // lighter on hover so the change is visible
+
+$code-bg-color-light: rgba($accent-color, 0.05);
 $code-bg-color-dark: #2c3237 !default;
+
+// Typography
+$font-family-base: "Inter", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
 
 // Font awesome location
 $fa-font-path: "../webfonts";

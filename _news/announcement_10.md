@@ -6,4 +6,4 @@ related_posts: true
 
 ---
 
-💬 I gave a talk on neural implicit volume reconstruction at IST Austria.
+💬 Talk on neural implicit volume reconstruction at IST Austria.

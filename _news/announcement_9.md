@@ -6,4 +6,4 @@ related_posts: true
 
 ---
 
-💬 I gave a talk on interactive motif analysis at the international connectomics conference in Berlin.
+💬 Talk on interactive motif analysis at the International Connectomics Conference in Berlin.

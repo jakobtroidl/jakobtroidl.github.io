@@ -6,4 +6,4 @@ related_posts: true
 
 ---
 
-💬 CAVE is out in Nature Methods. Check the paper out [here](https://www.nature.com/articles/s41592-024-02426-z).
+📝 [CAVE](https://www.nature.com/articles/s41592-024-02426-z) is out in Nature Methods.

@@ -6,4 +6,4 @@ related_posts: true
 
 ---
 
-🧠 I started as a visiting researcher in the [Turaga lab](https://www.janelia.org/lab/turaga-lab) at [HHMI Janelia](https://www.janelia.org/).
+🧠 Started as a visiting researcher in the [Turaga Lab](https://www.janelia.org/lab/turaga-lab) at [HHMI Janelia](https://www.janelia.org/).

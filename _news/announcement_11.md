@@ -6,4 +6,4 @@ related_posts: true
 
 ---
 
-📝 New [preprint](https://jakobtroidl.github.io/assets/pdf/neuron_shape_seasoning_preprint.pdf) on automated proofreading and typing of connectomes using global neuron shape reasoning.
+📝 New preprint on [automated connectome proofreading and typing with global neuron shape reasoning](https://jakobtroidl.github.io/assets/pdf/neuron_shape_seasoning_preprint.pdf).

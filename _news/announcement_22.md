@@ -6,4 +6,4 @@ related_posts: true
 
 ---
 
-🇸🇪 Attended [ECCV](https://eccv.ecva.net/) in Malmo and gave a keynote talk at the [BIC workshop](https://bioimagecomputing.com/detailed-program/) on Probing Scaling Laws in Microscopy Image Analysis.  
+🇸🇪 Keynote at the [BIC workshop](https://bioimagecomputing.com/detailed-program/) at [ECCV](https://eccv.ecva.net/) in Malmö: Probing Scaling Laws in Microscopy Image Analysis.

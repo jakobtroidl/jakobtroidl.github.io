@@ -6,4 +6,4 @@ related_posts: true
 
 ---
 
-💬 I gave a talk on human-centered computing in connectomics at Harvard Medical School.
+💬 Talk on human-centered computing in connectomics at Harvard Medical School.

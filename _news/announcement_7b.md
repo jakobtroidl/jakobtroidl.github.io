@@ -6,4 +6,4 @@ related_posts: true
 
 ---
 
-📝 New [preprint](https://jakobtroidl.github.io/assets/pdf/niiv_preprint.pdf) on neural implicit isotropic volume reconstruction.
+📝 New preprint on [neural implicit isotropic volume reconstruction](https://jakobtroidl.github.io/assets/pdf/niiv_preprint.pdf).
