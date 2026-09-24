@@ -715,22 +715,24 @@ footer.sticky-bottom {
 }
 
 .news-toggle {
-  display: block;
-  margin: 0.5rem auto 0;
-  padding: 0.25rem 1rem;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  color: var(--global-text-color);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  // line up with the news text column (date column is 20% wide + cell padding)
+  margin: 0.25rem 0 1.5rem calc(20% + 0.3rem);
+  padding: 0.25rem 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--global-theme-color);
   background: none;
-  border: 1px solid var(--global-text-color);
+  border: none;
+  border-bottom: 1px solid transparent;
   cursor: pointer;
-
   transition:
     color 0.2s ease,
     border-color 0.2s ease;
 
   i {
-    margin-left: 0.25rem;
     font-size: 0.7rem;
     transition: transform 0.35s ease;
   }
@@ -741,8 +743,13 @@ footer.sticky-bottom {
 
   &:hover,
   &:focus-visible {
-    color: var(--global-theme-color);
-    border-color: var(--global-theme-color);
+    color: var(--global-hover-color);
+    border-bottom-color: currentColor;
+    outline: none;
+
+    &[aria-expanded="false"] i {
+      transform: translateY(2px);
+    }
   }
 }
 
@@ -873,19 +880,47 @@ footer.sticky-bottom {
         }
       }
 
+      // paper links as quiet text: "PDF · Website · Slides"
       .links {
-        a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          margin-left: 0;
+        margin-top: 0.25rem;
 
-          &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+        a.btn {
+          margin: 0;
+          padding: 0;
+          font-size: 0.875rem;
+          font-weight: 500;
+          line-height: 1.5;
+          text-transform: none;
+          color: var(--global-theme-color);
+          background: none;
+          border: none;
+          border-bottom: 1px solid transparent;
+          border-radius: 0;
+          box-shadow: none;
+          transition:
+            color 0.2s ease,
+            border-color 0.2s ease;
+
+          &:hover,
+          &:focus-visible {
+            color: var(--global-hover-color);
+            border-bottom-color: currentColor;
+            box-shadow: none;
+            outline: none;
+          }
+
+          // "·" separator sits outside the link box so the hover underline skips it
+          & + a.btn {
+            position: relative;
+            margin-left: 1.25rem;
+
+            &::before {
+              content: "·";
+              position: absolute;
+              left: -0.8rem;
+              color: var(--global-text-color-light);
+              pointer-events: none;
+            }
           }
         }
       }

@@ -43,7 +43,8 @@
     </div>
     {% if news_size > news_limit %}
       <button type="button" class="news-toggle" aria-expanded="false" aria-controls="news-more">
-        <span class="news-toggle-label">Show more news</span>
+        {% assign news_hidden = news_size | minus: news_limit %}
+        <span class="news-toggle-label" data-more="Show {{ news_hidden }} older updates">Show {{ news_hidden }} older updates</span>
         <i class="fa-solid fa-chevron-down"></i>
       </button>
       <script>
@@ -62,7 +63,7 @@
           button.addEventListener('click', () => {
             const open = !more.classList.contains('is-open');
             button.setAttribute('aria-expanded', String(open));
-            label.textContent = open ? 'Show less' : 'Show more news';
+            label.textContent = open ? 'Show fewer' : label.dataset.more;
             more.inert = !open;
 
             if (open) {
