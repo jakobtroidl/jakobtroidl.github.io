@@ -14,8 +14,18 @@
         {% else %}
           {% assign news_limit = news_size %}
         {% endif %}
-        {% for item in news limit: news_limit %}
-          <tr>
+        {% for item in news %}
+          {% if forloop.index0 == news_limit %}
+            {% comment %} older news goes in its own table so its height can be animated {% endcomment %}
+            </table>
+            <div class="news-more" id="news-more" inert>
+            <table class="table table-sm table-borderless">
+          {% endif %}
+          <tr
+            {% if forloop.index > news_limit %}
+              style="--i: {{ forloop.index | minus: news_limit }}"
+            {% endif %}
+          >
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
             <td>
               {% if item.inline %}
@@ -27,7 +37,52 @@
           </tr>
         {% endfor %}
       </table>
+      {% if news_size > news_limit %}
+        </div>
+      {% endif %}
     </div>
+    {% if news_size > news_limit %}
+      <button type="button" class="news-toggle" aria-expanded="false" aria-controls="news-more">
+        <span class="news-toggle-label">Show more news</span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+      <script>
+        document.querySelectorAll('.news-toggle').forEach((button) => {
+          const news = button.closest('.news');
+          const more = news.querySelector('.news-more');
+          const label = button.querySelector('.news-toggle-label');
+
+          more.addEventListener('transitionend', (e) => {
+            // once fully open, let the height follow the content (e.g. on resize)
+            if (e.target === more && e.propertyName === 'height' && more.classList.contains('is-open')) {
+              more.style.height = 'auto';
+            }
+          });
+
+          button.addEventListener('click', () => {
+            const open = !more.classList.contains('is-open');
+            button.setAttribute('aria-expanded', String(open));
+            label.textContent = open ? 'Show less' : 'Show more news';
+            more.inert = !open;
+
+            if (open) {
+              more.style.height = more.scrollHeight + 'px';
+              more.classList.add('is-open');
+            } else {
+              // animate from the current pixel height, not from 'auto'
+              more.style.height = more.scrollHeight + 'px';
+              more.getBoundingClientRect(); // force reflow so the collapse animates
+              more.style.height = '0px';
+              more.classList.remove('is-open');
+              // if the top of the news list is off-screen, glide back to it instead of jumping
+              if (news.getBoundingClientRect().top < 0) {
+                news.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }
+            }
+          });
+        });
+      </script>
+    {% endif %}
   {% else %}
     <p>No news so far...</p>
   {% endif %}

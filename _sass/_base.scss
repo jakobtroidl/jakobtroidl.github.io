@@ -653,6 +653,77 @@ footer.sticky-bottom {
   }
 }
 
+// News
+
+// the list is split into two tables (latest + older); keep the seam invisible
+.news .table {
+  margin-bottom: 0;
+}
+
+.news-more {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+  tr {
+    opacity: 0;
+    transform: translateY(-6px);
+    transition:
+      opacity 0.2s ease,
+      transform 0.2s ease;
+  }
+
+  &.is-open tr {
+    opacity: 1;
+    transform: none;
+    transition:
+      opacity 0.4s ease,
+      transform 0.4s ease;
+    // gentle stagger, capped so long lists don't drag on
+    transition-delay: calc(min(var(--i, 0), 10) * 35ms);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    &,
+    tr,
+    &.is-open tr {
+      transition: none;
+    }
+  }
+}
+
+.news-toggle {
+  display: block;
+  margin: 0.5rem auto 0;
+  padding: 0.25rem 1rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--global-text-color);
+  background: none;
+  border: 1px solid var(--global-text-color);
+  cursor: pointer;
+
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease;
+
+  i {
+    margin-left: 0.25rem;
+    font-size: 0.7rem;
+    transition: transform 0.35s ease;
+  }
+
+  &[aria-expanded="true"] i {
+    transform: rotate(180deg);
+  }
+
+  &:hover,
+  &:focus-visible {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+  }
+}
+
 // Publications
 
 .publications {
@@ -695,6 +766,26 @@ footer.sticky-bottom {
         width: 100%;
         min-width: 80px;
         max-width: 200px;
+      }
+
+      // uniform 4:3 frame; contain so figures and logos are never cropped
+      .preview img,
+      img.preview {
+        aspect-ratio: 4 / 3;
+        object-fit: contain;
+        transition: transform 0.3s ease;
+      }
+
+      &:hover .preview img,
+      &:hover img.preview {
+        transform: scale(1.03);
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        &:hover .preview img,
+        &:hover img.preview {
+          transform: none;
+        }
       }
 
       .abbr {

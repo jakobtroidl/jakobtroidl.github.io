@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-description: Harvard University | Computer Science | Data Visualization
+description: AI Scientist at HHMI Janelia | Machine Learning | Microscopy | Connectomics
 
 profile:
   align: right
   image: profile-picture.png
   address: >
 
-    <p>SEC 2.421</p>
-    <p>150 Western Ave</p>
-    <p>Boston, MA 02134</p>
+    <p>HHMI Janelia Research Campus</p>
+    <p>19700 Helix Drive</p>
+    <p>Ashburn, VA 20147</p>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
